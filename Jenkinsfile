@@ -33,7 +33,8 @@ node {
         parallel(
             "Run Tests": {
                 if (params.ACTION == 'test') {
-                    sh 'pytest tests/'
+                    sh 'python3 -m pytest tests/'
+
                 }
             },
             "Lint": {

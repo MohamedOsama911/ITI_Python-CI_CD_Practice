@@ -1,4 +1,4 @@
-@Library('shared-lib') _
+@Library('iti-practice-shared-lib') _
 import org.example.Helper
 
 node {
